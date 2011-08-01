@@ -16,8 +16,8 @@
     * fill **Other Linker Flags** with `-Objc` and `-all_load`
     * add the **path of GHMarkdownParser** to `Library Search Paths` and `Header Search Paths`
 * go into **build phases**
-    * add the **GHMarkdownParser static library** to `Target Dependencies`
-    * add **libGHMarkdownParser.a** to `Link Binary with Libraries`
+    * add the `GHMarkdownParser` to **Target Dependencies**
+    * add `libGHMarkdownParser.a` to **Link Binary with Libraries**
 
 ## How to use GHMarkdownParser
 
