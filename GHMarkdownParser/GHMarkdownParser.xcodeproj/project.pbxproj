@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C525F513E6FE1A0003EEE5 /* Foundation.framework */; };
+		A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHMarkdownParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C525F513E6FE1A0003EEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHMarkdownParser-Prefix.pch"; sourceTree = "<group>"; };
+		A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMarkdownParser.h; sourceTree = "<group>"; };
+		A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMarkdownParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7C525EF13E6FE1A0003EEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7C525E713E6FE1A0003EEE5 = {
+			isa = PBXGroup;
+			children = (
+				A7C525F713E6FE1A0003EEE5 /* GHMarkdownParser */,
+				A7C525F413E6FE1A0003EEE5 /* Frameworks */,
+				A7C525F313E6FE1A0003EEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C525F313E6FE1A0003EEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C525F413E6FE1A0003EEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7C525F513E6FE1A0003EEE5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C525F713E6FE1A0003EEE5 /* GHMarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */,
+				A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */,
+				A7C525F813E6FE1A0003EEE5 /* Supporting Files */,
+			);
+			path = GHMarkdownParser;
+			sourceTree = "<group>";
+		};
+		A7C525F813E6FE1A0003EEE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7C525F013E6FE1A0003EEE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */;
+			buildPhases = (
+				A7C525EE13E6FE1A0003EEE5 /* Sources */,
+				A7C525EF13E6FE1A0003EEE5 /* Frameworks */,
+				A7C525F013E6FE1A0003EEE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHMarkdownParser;
+			productName = GHMarkdownParser;
+			productReference = A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C525E913E6FE1A0003EEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = A7C525EC13E6FE1A0003EEE5 /* Build configuration list for PBXProject "GHMarkdownParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7C525E713E6FE1A0003EEE5;
+			productRefGroup = A7C525F313E6FE1A0003EEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7C525F113E6FE1A0003EEE5 /* GHMarkdownParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7C525EE13E6FE1A0003EEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7C525FD13E6FE1A0003EEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7C525FE13E6FE1A0003EEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7C5260013E6FE1A0003EEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GHMarkdownParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A7C5260113E6FE1A0003EEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GHMarkdownParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHMarkdownParser/GHMarkdownParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C525EC13E6FE1A0003EEE5 /* Build configuration list for PBXProject "GHMarkdownParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C525FD13E6FE1A0003EEE5 /* Debug */,
+				A7C525FE13E6FE1A0003EEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C525FF13E6FE1A0003EEE5 /* Build configuration list for PBXNativeTarget "GHMarkdownParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C5260013E6FE1A0003EEE5 /* Debug */,
+				A7C5260113E6FE1A0003EEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C525E913E6FE1A0003EEE5 /* Project object */;
+}
