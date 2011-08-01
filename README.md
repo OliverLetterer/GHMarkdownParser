@@ -4,8 +4,9 @@
 
 ## How to setup GHMarkdownParser is your project
 
-* add GHMarkdownParser as a submodule to your project
-* navigate into GHMarkdownParser directory and initialize the submodules
+* add **GHMarkdownParser** as a submodule to your project
+* navigate into **GHMarkdownParser directory** and initialize the submodules
+
     ```
     git submodule init
     git submodule update
