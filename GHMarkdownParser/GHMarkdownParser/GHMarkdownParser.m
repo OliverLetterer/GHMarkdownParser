@@ -30,4 +30,24 @@
     return HTMLString;
 }
 
++ (NSString *)flavoredHTMLStringFromMarkdownString:(NSString *)markdownString {
+    NSMutableString *fixedMarkdown = [NSMutableString stringWithCapacity:markdownString.length];
+    __block BOOL isCodeBlock = NO;
+    [markdownString enumerateLinesUsingBlock:^(NSString *line, BOOL *stop) {
+        if ([line rangeOfString:@"```"].location != NSNotFound) {
+            isCodeBlock = !isCodeBlock;
+        } else {
+            if (isCodeBlock) {
+                [fixedMarkdown appendFormat:@"\t%@\n", line];
+            } else {
+                [fixedMarkdown appendFormat:@"%@\n", line];
+            }
+        }
+    }];
+    
+    NSString *HTML = [self HTMLStringFromMarkdownString:fixedMarkdown];
+    
+    return HTML;
+}
+
 @end

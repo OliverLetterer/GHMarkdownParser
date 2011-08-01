@@ -11,5 +11,6 @@
 @interface GHMarkdownParser : NSObject
 
 + (NSString *)HTMLStringFromMarkdownString:(NSString *)markdownString;
++ (NSString *)flavoredHTMLStringFromMarkdownString:(NSString *)markdownString;
 
 @end
