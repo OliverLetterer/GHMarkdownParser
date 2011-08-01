@@ -9,7 +9,7 @@
     * run `git submodule init` and `git submodule update `
 * drag and drop the `GHMarkdownParser.xcodeproj` into your project
 * select your project target -> build settings
-    * fill `Other Linker Flags` with `-Objc` and `-all_load
+    * fill `Other Linker Flags` with `-Objc` and `-all_load`
     * add GHMarkdownParser path to `Library Search Paths` and `Header Search Paths`
 * go into build phases
     * add the GHMarkdownParser static library to `Target Dependencies`
