@@ -10,4 +10,6 @@
 
 @interface GHMarkdownParser : NSObject
 
++ (NSString *)HTMLStringFromMarkdownString:(NSString *)markdownString;
+
 @end
