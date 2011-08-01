@@ -38,12 +38,14 @@
             isCodeBlock = !isCodeBlock;
         } else {
             if (isCodeBlock) {
-                [fixedMarkdown appendFormat:@"\t%@\n", line];
+                [fixedMarkdown appendFormat:@"      %@\n", line];
             } else {
                 [fixedMarkdown appendFormat:@"%@\n", line];
             }
         }
     }];
+    
+    DLog(@"%@", fixedMarkdown);
     
     NSString *HTML = [self HTMLStringFromMarkdownString:fixedMarkdown];
     
