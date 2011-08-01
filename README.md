@@ -23,7 +23,7 @@
 
 * convert any markdown formatted string into HTML
 
-```objecttive-c
-NSString *markdown = ...;
-NSString *HTML = markdown.flavoredHTMLStringFromMarkdown;
-```
+    ```objecttive-c
+    NSString *markdown = ...;
+    NSString *HTML = markdown.flavoredHTMLStringFromMarkdown;
+    ```
