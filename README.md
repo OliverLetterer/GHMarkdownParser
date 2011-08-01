@@ -15,6 +15,7 @@
     * add the GHMarkdownParser static library to `Target Dependencies`
     * add `libGHMarkdownParser.a` to `Link Binary with Libraries`
 
+
 ## How to use GHMarkdownParser
 
 * import the GHMarkdownParser header
