@@ -1,5 +1,5 @@
 # GHMarkdownParser
-**GHMarkdownParser** is a *markdown* parser for iOS and based on [discount](https://github.com/Orc/discount).
+**GHMarkdownParser** is a [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) parser for iOS and based on [discount](https://github.com/Orc/discount).
 
 
 ## How to setup GHMarkdownParser is your project
@@ -18,5 +18,12 @@
 ## How to use GHMarkdownParser
 
 * import the GHMarkdownParser header
+
     #import "GHMarkdownParser.h"
-* asd
+
+* convert any markdown formatted string into HTML
+
+```objecttive-c
+NSString *markdown = ...;
+NSString *HTML = markdown.flavoredHTMLStringFromMarkdown;
+```
