@@ -20,7 +20,9 @@
 
 * import the GHMarkdownParser header
 
+    ```objecttive-c
     #import "GHMarkdownParser.h"
+    ```
 
 * convert any markdown formatted string into HTML
 
