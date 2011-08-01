@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NSString+GHMarkdownParser.h"
 
 @interface GHMarkdownParser : NSObject
 

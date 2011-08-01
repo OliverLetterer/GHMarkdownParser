@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */; };
+		A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */; };
 		A7C525F613E6FE1A0003EEE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C525F513E6FE1A0003EEE5 /* Foundation.framework */; };
 		A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */; };
 		A7C5260513E700910003EEE5 /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260313E700910003EEE5 /* mkdio.c */; };
@@ -27,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		A744F55A13E728CD0038C189 /* blocktags */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blocktags; path = ../../discount/blocktags; sourceTree = "<group>"; };
+		A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHMarkdownParser.h"; sourceTree = "<group>"; };
+		A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GHMarkdownParser.m"; sourceTree = "<group>"; };
 		A7C525F213E6FE1A0003EEE5 /* libGHMarkdownParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHMarkdownParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C525F513E6FE1A0003EEE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHMarkdownParser-Prefix.pch"; sourceTree = "<group>"; };
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A744F57A13E737880038C189 /* Foundation and Class Additions */ = {
+			isa = PBXGroup;
+			children = (
+				A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */,
+				A744F57D13E737DF0038C189 /* NSString+GHMarkdownParser.m */,
+			);
+			path = "Foundation and Class Additions";
+			sourceTree = "<group>";
+		};
 		A7C525E713E6FE1A0003EEE5 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +101,7 @@
 		A7C525F713E6FE1A0003EEE5 /* GHMarkdownParser */ = {
 			isa = PBXGroup;
 			children = (
+				A744F57A13E737880038C189 /* Foundation and Class Additions */,
 				A7C5260213E700730003EEE5 /* discount */,
 				A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */,
 				A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */,
@@ -137,6 +151,7 @@
 				A7C5260A13E700A00003EEE5 /* markdown.h in Headers */,
 				A7C5261C13E7010A0003EEE5 /* tags.h in Headers */,
 				A7C5262013E7013E0003EEE5 /* config.h in Headers */,
+				A744F57E13E737DF0038C189 /* NSString+GHMarkdownParser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +217,7 @@
 				A7C5261613E700DE0003EEE5 /* html5.c in Sources */,
 				A7C5261913E700E80003EEE5 /* tags.c in Sources */,
 				A7C5261E13E7012B0003EEE5 /* setup.c in Sources */,
+				A744F57F13E737DF0038C189 /* NSString+GHMarkdownParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
