@@ -17,4 +17,6 @@
 
 ## How to use GHMarkdownParser
 
-ahjsd_asdjh_asdjhg_jahsdg
+* import the GHMarkdownParser header
+    #import "GHMarkdownParser.h"
+* asd
