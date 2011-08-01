@@ -2,7 +2,7 @@
 **GHMarkdownParser** is a *markdown* parser for iOS and based on [discount](https://github.com/Orc/discount).
 
 
-## How to use GHMarkdownParser is your project
+## How to setup GHMarkdownParser is your project
 
 * add GHMarkdownParser as a submodule to your project
 * navigate into GHMarkdownParser directory
@@ -14,3 +14,7 @@
 * go into build phases
     * add the GHMarkdownParser static library to `Target Dependencies`
     * add `libGHMarkdownParser.a` to `Link Binary with Libraries`
+
+## How to use GHMarkdownParser
+
+ahjsd_asdjh_asdjhg_jahsdg
