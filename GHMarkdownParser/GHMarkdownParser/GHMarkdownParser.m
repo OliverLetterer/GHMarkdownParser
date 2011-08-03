@@ -45,8 +45,6 @@
         }
     }];
     
-    DLog(@"%@", fixedMarkdown);
-    
     NSString *HTML = [self HTMLStringFromMarkdownString:fixedMarkdown];
     
     return HTML;
