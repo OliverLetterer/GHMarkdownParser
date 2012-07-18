@@ -20,9 +20,9 @@
         char *HTMLUTF8 = NULL;
         int length = mkd_document(document, &HTMLUTF8);
         if (length != EOF) {
-            HTMLString = [[NSString alloc] initWithBytes:HTMLUTF8
+            HTMLString = [[[NSString alloc] initWithBytes:HTMLUTF8
                                                   length:length
-                                                encoding:NSUTF8StringEncoding];
+                                                encoding:NSUTF8StringEncoding] autorelease];
         }
         mkd_cleanup(document);
     }
