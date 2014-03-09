@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27051FB218CD052A0050AC52 /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = 27051FB118CD052A0050AC52 /* github_flavoured.c */; };
+		27051FB318CD052A0050AC52 /* github_flavoured.c in Sources */ = {isa = PBXBuildFile; fileRef = 27051FB118CD052A0050AC52 /* github_flavoured.c */; };
+		27051FB518CD05AD0050AC52 /* basename.c in Sources */ = {isa = PBXBuildFile; fileRef = 27051FB418CD05AD0050AC52 /* basename.c */; };
+		27051FB618CD05AD0050AC52 /* basename.c in Sources */ = {isa = PBXBuildFile; fileRef = 27051FB418CD05AD0050AC52 /* basename.c */; };
 		279A7E8A18A89AB8007AA2CC /* GHMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */; };
 		279A7E8B18A89AB8007AA2CC /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260313E700910003EEE5 /* mkdio.c */; };
 		279A7E8C18A89AB8007AA2CC /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = A7C5260713E700A00003EEE5 /* markdown.c */; };
@@ -46,6 +50,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27051FB118CD052A0050AC52 /* github_flavoured.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = github_flavoured.c; path = ../../discount/github_flavoured.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		27051FB418CD05AD0050AC52 /* basename.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = basename.c; path = ../../discount/basename.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
 		279A7EA118A89AB8007AA2CC /* libGHMarkdownParser_Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGHMarkdownParser_Mac.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A744F55A13E728CD0038C189 /* blocktags */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blocktags; path = ../../discount/blocktags; sourceTree = "<group>"; };
 		A744F57C13E737DF0038C189 /* NSString+GHMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GHMarkdownParser.h"; sourceTree = "<group>"; };
@@ -55,20 +61,20 @@
 		A7C525F913E6FE1A0003EEE5 /* GHMarkdownParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHMarkdownParser-Prefix.pch"; sourceTree = "<group>"; };
 		A7C525FA13E6FE1A0003EEE5 /* GHMarkdownParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHMarkdownParser.h; sourceTree = "<group>"; };
 		A7C525FB13E6FE1A0003EEE5 /* GHMarkdownParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHMarkdownParser.m; sourceTree = "<group>"; };
-		A7C5260313E700910003EEE5 /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = ../../discount/mkdio.c; sourceTree = "<group>"; };
-		A7C5260413E700910003EEE5 /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mkdio.h; path = ../../discount/mkdio.h; sourceTree = "<group>"; };
-		A7C5260713E700A00003EEE5 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = ../../discount/markdown.c; sourceTree = "<group>"; };
-		A7C5260813E700A00003EEE5 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../../discount/markdown.h; sourceTree = "<group>"; };
-		A7C5260B13E700AD0003EEE5 /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = ../../discount/generate.c; sourceTree = "<group>"; };
-		A7C5260D13E700B80003EEE5 /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = ../../discount/resource.c; sourceTree = "<group>"; };
-		A7C5260F13E700C20003EEE5 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = ../../discount/xml.c; sourceTree = "<group>"; };
-		A7C5261113E700CB0003EEE5 /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = ../../discount/Csio.c; sourceTree = "<group>"; };
-		A7C5261313E700D50003EEE5 /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = ../../discount/emmatch.c; sourceTree = "<group>"; };
-		A7C5261513E700DE0003EEE5 /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html5.c; path = ../../discount/html5.c; sourceTree = "<group>"; };
-		A7C5261713E700E80003EEE5 /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tags.c; path = ../../discount/tags.c; sourceTree = "<group>"; };
-		A7C5261B13E7010A0003EEE5 /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tags.h; path = ../../discount/tags.h; sourceTree = "<group>"; };
-		A7C5261D13E7012B0003EEE5 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = ../../discount/setup.c; sourceTree = "<group>"; };
-		A7C5261F13E7013E0003EEE5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../discount/config.h; sourceTree = "<group>"; };
+		A7C5260313E700910003EEE5 /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = ../../discount/mkdio.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5260413E700910003EEE5 /* mkdio.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = mkdio.h; path = ../../discount/mkdio.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5260713E700A00003EEE5 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = ../../discount/markdown.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5260813E700A00003EEE5 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../../discount/markdown.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5260B13E700AD0003EEE5 /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = ../../discount/generate.c; sourceTree = "<group>"; tabWidth = 8; usesTabs = 1; };
+		A7C5260D13E700B80003EEE5 /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = resource.c; path = ../../discount/resource.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5260F13E700C20003EEE5 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = xml.c; path = ../../discount/xml.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261113E700CB0003EEE5 /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = ../../discount/Csio.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261313E700D50003EEE5 /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = ../../discount/emmatch.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261513E700DE0003EEE5 /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = html5.c; path = ../../discount/html5.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261713E700E80003EEE5 /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = tags.c; path = ../../discount/tags.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261B13E7010A0003EEE5 /* tags.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = tags.h; path = ../../discount/tags.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261D13E7012B0003EEE5 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.c; name = setup.c; path = ../../discount/setup.c; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
+		A7C5261F13E7013E0003EEE5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../../discount/config.h; sourceTree = "<group>"; tabWidth = 2; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,20 +156,22 @@
 			isa = PBXGroup;
 			children = (
 				A744F55A13E728CD0038C189 /* blocktags */,
+				27051FB418CD05AD0050AC52 /* basename.c */,
 				A7C5261F13E7013E0003EEE5 /* config.h */,
-				A7C5261D13E7012B0003EEE5 /* setup.c */,
-				A7C5261B13E7010A0003EEE5 /* tags.h */,
-				A7C5261713E700E80003EEE5 /* tags.c */,
-				A7C5261513E700DE0003EEE5 /* html5.c */,
-				A7C5261313E700D50003EEE5 /* emmatch.c */,
 				A7C5261113E700CB0003EEE5 /* Csio.c */,
-				A7C5260F13E700C20003EEE5 /* xml.c */,
-				A7C5260D13E700B80003EEE5 /* resource.c */,
+				A7C5261313E700D50003EEE5 /* emmatch.c */,
 				A7C5260B13E700AD0003EEE5 /* generate.c */,
+				27051FB118CD052A0050AC52 /* github_flavoured.c */,
+				A7C5261513E700DE0003EEE5 /* html5.c */,
 				A7C5260713E700A00003EEE5 /* markdown.c */,
 				A7C5260813E700A00003EEE5 /* markdown.h */,
 				A7C5260313E700910003EEE5 /* mkdio.c */,
 				A7C5260413E700910003EEE5 /* mkdio.h */,
+				A7C5260D13E700B80003EEE5 /* resource.c */,
+				A7C5261D13E7012B0003EEE5 /* setup.c */,
+				A7C5261713E700E80003EEE5 /* tags.c */,
+				A7C5261B13E7010A0003EEE5 /* tags.h */,
+				A7C5260F13E700C20003EEE5 /* xml.c */,
 			);
 			name = discount;
 			sourceTree = "<group>";
@@ -265,6 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				279A7E8A18A89AB8007AA2CC /* GHMarkdownParser.m in Sources */,
+				27051FB618CD05AD0050AC52 /* basename.c in Sources */,
+				27051FB318CD052A0050AC52 /* github_flavoured.c in Sources */,
 				279A7E8B18A89AB8007AA2CC /* mkdio.c in Sources */,
 				279A7E8C18A89AB8007AA2CC /* markdown.c in Sources */,
 				279A7E8D18A89AB8007AA2CC /* generate.c in Sources */,
@@ -284,6 +294,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C525FC13E6FE1A0003EEE5 /* GHMarkdownParser.m in Sources */,
+				27051FB518CD05AD0050AC52 /* basename.c in Sources */,
+				27051FB218CD052A0050AC52 /* github_flavoured.c in Sources */,
 				A7C5260513E700910003EEE5 /* mkdio.c in Sources */,
 				A7C5260913E700A00003EEE5 /* markdown.c in Sources */,
 				A7C5260C13E700AD0003EEE5 /* generate.c in Sources */,
