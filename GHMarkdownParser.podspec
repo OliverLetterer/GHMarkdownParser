@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.source_files = 'discount/config.h', 'discount/setup.c', 'discount/tags.{h,c}', 
     'discount/html5.c', 'discount/emmatch.c', 'discount/Csio.c',  'discount/xml.c', 'discount/resource.c', 
     'discount/generate.c', 'discount/markdown.{h,c}', 'discount/mkdir.{c,h}', 'discount/cstring.h',
-    'discount/amalloc.{h,c}', 'discount/mkdio.{h,c}', 'GHMarkdownParser/**/*.{h,m}'
+    'discount/amalloc.{h,c}', 'discount/mkdio.{h,c}', 'discount/github_flavoured.c', 'discount/basename.c',
+    'GHMarkdownParser/**/*.{h,m}'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load', 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/GHMarkdownParser/discount"' }
   s.resources = 'discount/blocktags'
   s.requires_arc = true
