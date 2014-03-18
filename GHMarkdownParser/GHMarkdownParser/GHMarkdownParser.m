@@ -9,54 +9,56 @@
 #import "GHMarkdownParser.h"
 #import "markdown.h"
 
+#if !__has_feature(objc_arc)
+#error This project requires arc
+#endif
+
 // Declared in mkdio.h, but we can't include that after including markdown.
 extern void mkd_with_html5_tags(void);
 
 
+
 @implementation GHMarkdownParser
 
-@synthesize options=_options, githubFlavored=_githubFlavored, baseURL=_baseURL;
-
-+ (void) initialize {
++ (void)initialize {
     // Enable recognition of HTML5 tags
     mkd_with_html5_tags();
 }
 
 + (NSString *)HTMLStringFromMarkdownString:(NSString *)markdownString {
-    GHMarkdownParser* parser = [[self alloc] init];
-    NSString* html = [parser HTMLStringFromMarkdownString:markdownString];
-#if !__has_feature(objc_arc)
-    [parser release];
-#endif
+    GHMarkdownParser *parser = [[self alloc] init];
+    NSString *html = [parser HTMLStringFromMarkdownString:markdownString];
     return html;
 }
 
 
 + (NSString *)flavoredHTMLStringFromMarkdownString:(NSString *)markdownString {
-    GHMarkdownParser* parser = [[self alloc] init];
+    GHMarkdownParser *parser = [[self alloc] init];
     parser.githubFlavored = YES;
-    NSString* html = [parser HTMLStringFromMarkdownString:markdownString];
-#if !__has_feature(objc_arc)
-    [parser release];
-#endif
+    NSString *html = [parser HTMLStringFromMarkdownString:markdownString];
     return html;
 }
 
 
 - (NSString *)HTMLStringFromMarkdownString:(NSString *)markdownString {
-    NSData* mdData = [markdownString dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *mdData = [markdownString dataUsingEncoding:NSUTF8StringEncoding];
     Document *document;
-    if (_githubFlavored)
-        document = gfm_string(mdData.bytes, mdData.length, _options);
-    else
-        document = mkd_string(mdData.bytes, mdData.length, _options);
-    if (!document)
+
+    if (_githubFlavored) {
+        document = gfm_string(mdData.bytes, (int)mdData.length, _options);
+    } else {
+        document = mkd_string(mdData.bytes, (int)mdData.length, _options);
+    }
+
+    if (!document) {
         return nil;
+    }
 
-    if (_baseURL)
+    if (_baseURL) {
         mkd_basename(document, (char*)_baseURL.absoluteString.UTF8String);
+    }
 
-    NSString* html = nil;
+    NSString *html = nil;
     if (mkd_compile(document, _options)) {
         char *HTMLUTF8 = NULL;
         int length = mkd_document(document, &HTMLUTF8);
@@ -64,12 +66,10 @@ extern void mkd_with_html5_tags(void);
             html = [[NSString alloc] initWithBytes:HTMLUTF8
                                             length:length
                                           encoding:NSUTF8StringEncoding];
-#if !__has_feature(objc_arc)
-            [html autorelease];
-#endif
         }
         mkd_cleanup(document);
     }
+
     return html;
 }
 

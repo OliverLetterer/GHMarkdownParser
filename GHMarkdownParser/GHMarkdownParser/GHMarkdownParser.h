@@ -24,17 +24,18 @@ typedef enum {
 } GHMarkdownOptions;
 
 
+
 /** Parses human-readable input in the Markdown format and converts it to HTML. */
 @interface GHMarkdownParser : NSObject
 
 /** Option flags for Markdown parsing. By default these are all off. */
-@property GHMarkdownOptions options;
+@property (nonatomic, assign) GHMarkdownOptions options;
 
 /** If set, Github-Flavored Markdown extensions are supported. */
-@property BOOL githubFlavored;
+@property (nonatomic, assign) BOOL githubFlavored;
 
 /** If set, relative URLs will be prefixed with this absolute URL. */
-@property NSURL* baseURL;
+@property (nonatomic, strong) NSURL *baseURL;
 
 
 /** Converts a Markdown string to HTML using this parser instance's settings. */
