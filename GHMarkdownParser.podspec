@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'GHMarkdownParser'
-  s.version  = '0.1.1'
+  s.version  = '0.1.2'
   s.license  = 'MIT'
   s.summary  = 'A GitHub Flavored Markdown parser for iOS and Mac OS, based on discount.'
   s.homepage = 'https://github.com/OliverLetterer/GHMarkdownParser'
