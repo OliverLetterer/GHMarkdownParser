@@ -1,3 +1,5 @@
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+
 # GHMarkdownParser
 **GHMarkdownParser** is a [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) parser for iOS and Mac OS, based on [discount](https://github.com/Orc/discount).
 
