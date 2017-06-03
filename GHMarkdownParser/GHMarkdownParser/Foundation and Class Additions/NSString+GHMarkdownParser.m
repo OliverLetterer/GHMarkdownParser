@@ -7,7 +7,7 @@
 //
 
 #import "NSString+GHMarkdownParser.h"
-#import "GHMarkdownParser.h"
+#import <GHMarkdownParser/GHMarkdownParser.h>
 
 @implementation NSString (GHMarkdownParser)
 
